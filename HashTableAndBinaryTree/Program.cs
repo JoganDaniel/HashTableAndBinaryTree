@@ -20,7 +20,14 @@ public class Program
         binarySearch.Insert(63);
         binarySearch.Insert(67);
         binarySearch.Display();
-
+        if(binarySearch.IfExists(67,binarySearch))
+        {
+            Console.WriteLine("Number Exists");
+        }
+        else
+        {
+            Console.WriteLine("Not exists");
+        }
         //MyMapNode<string, string> hash = new MyMapNode<string, string>(5);
         //hash.Add("0", "To");
         //hash.Add("1", "be");
